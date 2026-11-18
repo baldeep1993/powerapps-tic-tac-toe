@@ -26,20 +26,48 @@ I believe in learning by building, experimenting, and continuously improving.
 
 ## 📌 Project Overview
 
-This project is my first draft of a classic Tic-Tac-Toe game developed entirely using Microsoft Power Apps Canvas Apps.
+This project is an ongoing development of a classic Tic-Tac-Toe game built using Microsoft Power Apps Canvas Apps.
 
-The application brings the traditional Tic-Tac-Toe experience into a Canvas App, with its interface and game logic implemented within Power Apps.
+The initial layout and user interface of the application have been designed. The current focus is on implementing the game logic and developing functionality that allows users to play against a computer opponent.
 
-One of the key aspects of this project is that it operates without any external data sources or database connections.
+The application is being developed entirely within Power Apps, without relying on external data sources or database connections.
 
-## ✨ Project Highlights
+## ✨ Current Progress
 
-- Developed using Microsoft Power Apps Canvas Apps.
-- No external data sources or database dependencies.
-- Interactive user interface.
-- Game logic implemented using Power Fx.
-- Unpacked Canvas App source files included for code exploration.
-- Original `.msapp` file included for app import and reuse.
+- [x] Initial application layout designed.
+- [x] Basic Canvas App structure created.
+- [ ] Implementing Tic-Tac-Toe game logic.
+- [ ] Enabling user interaction with the game board.
+- [ ] Developing a computer opponent.
+- [ ] Implementing win, lose, and draw conditions.
+- [ ] Testing and refining the overall user experience.
+
+## 🚧 Development Status
+
+**Status: In Development**
+
+This project is currently a work in progress.
+
+The initial UI layout has been completed, and development is ongoing to transform it into a fully playable Tic-Tac-Toe game.
+
+The primary objective is to enable a user to play against a computer opponent, with the game logic and interactions handled entirely within Power Apps Canvas Apps.
+
+Features and functionality will be added incrementally as development progresses.
+
+## 🚀 Future Enhancements
+
+Planned improvements include:
+
+- Implementing complete game logic using Power Fx.
+- Developing a computer opponent to play against the user.
+- Implementing intelligent computer moves.
+- Adding win, lose, and draw detection.
+- Improving UI/UX and gameplay experience.
+- Testing and optimizing the application.
+
+---
+
+**This is an evolving project, and this repository will be updated as development progresses.**
 
 ## 🛠️ Technology Stack
 

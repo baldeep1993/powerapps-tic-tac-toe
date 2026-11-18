@@ -16,5 +16,17 @@ App:
               1,
               1
           )
-      );Clear(playerSelection)
+      );
+      ClearCollect(
+          winningCord,
+          {ID: 123},
+          {ID: 147},
+          {ID: 159},
+          {ID: 789},
+          {ID: 369},
+          {ID: 456},
+          {ID: 258},
+          {ID: 357}
+      );
+      Clear(playerSelection)
     Theme: =PowerAppsTheme

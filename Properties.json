@@ -118,15 +118,16 @@
     "Header": 2,
     "gallery": 1,
     "galleryTemplate": 1,
-    "label": 7,
+    "label": 9,
     "button": 3,
     "rectangle": 4,
     "timer": 2,
     "modernDataGrid": 2,
     "modernDataGridColumn": 2,
+    "modernButton": 1,
     "image": 4,
     "group": 1
   },
-  "DeserializationLoadTime": 1.6322524,
-  "AnalysisLoadTime": 0.7523182
+  "DeserializationLoadTime": 0.8103854,
+  "AnalysisLoadTime": 0.3420587
 }

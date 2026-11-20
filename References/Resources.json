@@ -10,7 +10,7 @@
       "Path": "Assets\\Images\\b2782400-bc24-42ed-9d17-c4a6b1163ac9.png",
       "Content": "Image",
       "ResourceKind": "LocalFile",
-      "RootPath": "https://dsprdil101sin.blob.core.windows.net/7a39cf4b-a1e8-4a93-b129-77b57825a9ac-1/resource/YjI3ODI0MDAtYmMyNC00MmVkLTlkMTctYzRhNmIxMTYzYWM5.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2026-11-20T08%3A29%3A52Z&ske=2026-11-21T08%3A44%3A52Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2026-11-21T08%3A44%3A52Z&sr=b&sp=r&sig=3fo6QKSFc2NarjBt3o%2F8wWOP8ZmN1KNQB%2Fwr7BZHpCo%3D"
+      "RootPath": "https://dsprdil101cin.blob.core.windows.net/7854ac83-8cf6-470c-9f0d-34779a32c56d-1/resource/YjI3ODI0MDAtYmMyNC00MmVkLTlkMTctYzRhNmIxMTYzYWM5.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2026-11-20T10%3A59%3A23Z&ske=2026-11-21T11%3A14%3A23Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2026-11-21T11%3A14%3A23Z&sr=b&sp=r&sig=mec9rpi7FOkWQt5Zolfr09Agze9Ui7bGj503yDItiy4%3D"
     },
     {
       "Name": "SampleCardImage",
@@ -58,7 +58,7 @@
       "Path": "Assets\\Images\\96d06b3b-8860-47cf-ae99-6d5360488002.gif",
       "Content": "Image",
       "ResourceKind": "LocalFile",
-      "RootPath": "https://dsprdil101sin.blob.core.windows.net/7a39cf4b-a1e8-4a93-b129-77b57825a9ac-1/resource/OTZkMDZiM2ItODg2MC00N2NmLWFlOTktNmQ1MzYwNDg4MDAy.gif?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2026-11-20T08%3A29%3A53Z&ske=2026-11-21T08%3A44%3A53Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2026-11-21T08%3A44%3A53Z&sr=b&sp=r&sig=VfuWHAmb2LY8iE1ppox8TRafOavUnW6kvLy0lHq242E%3D"
+      "RootPath": "https://dsprdil101cin.blob.core.windows.net/7854ac83-8cf6-470c-9f0d-34779a32c56d-1/resource/OTZkMDZiM2ItODg2MC00N2NmLWFlOTktNmQ1MzYwNDg4MDAy.gif?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2026-11-20T10%3A59%3A23Z&ske=2026-11-21T11%3A14%3A23Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2026-11-21T11%3A14%3A23Z&sr=b&sp=r&sig=PnTkeXLmkBWV%2FCZq5q3oKkCDZrWZ4c8s%2FRyFecx9SvY%3D"
     },
     {
       "Name": "Tic_tac_toe.svg",
@@ -70,7 +70,7 @@
       "Path": "Assets\\Images\\5a4c6d50-d1c6-4031-9016-28eb5f29de18.png",
       "Content": "Image",
       "ResourceKind": "LocalFile",
-      "RootPath": "https://dsprdil101sin.blob.core.windows.net/7a39cf4b-a1e8-4a93-b129-77b57825a9ac-1/resource/NWE0YzZkNTAtZDFjNi00MDMxLTkwMTYtMjhlYjVmMjlkZTE4.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2026-11-20T08%3A29%3A53Z&ske=2026-11-21T08%3A44%3A53Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2026-11-21T08%3A44%3A53Z&sr=b&sp=r&sig=41FMkYuy%2B%2FqHm5fp64mezaiznUq%2B7WRfYH%2FKuiC%2B2VA%3D"
+      "RootPath": "https://dsprdil101cin.blob.core.windows.net/7854ac83-8cf6-470c-9f0d-34779a32c56d-1/resource/NWE0YzZkNTAtZDFjNi00MDMxLTkwMTYtMjhlYjVmMjlkZTE4.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2026-11-20T10%3A59%3A23Z&ske=2026-11-21T11%3A14%3A23Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2026-11-21T11%3A14%3A23Z&sr=b&sp=r&sig=SiagzpcTaTi6TiypFZC9vvIdjnH3J05ssETZT49G09M%3D"
     },
     {
       "Name": "images",
@@ -82,7 +82,7 @@
       "Path": "Assets\\Images\\9a141538-ac9a-4455-961b-b08446139066.jpg",
       "Content": "Image",
       "ResourceKind": "LocalFile",
-      "RootPath": "https://dsprdil101sin.blob.core.windows.net/7a39cf4b-a1e8-4a93-b129-77b57825a9ac-1/resource/OWExNDE1MzgtYWM5YS00NDU1LTk2MWItYjA4NDQ2MTM5MDY2.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2026-11-20T08%3A29%3A53Z&ske=2026-11-21T08%3A44%3A53Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2026-11-21T08%3A44%3A53Z&sr=b&sp=r&sig=L%2FvtqjSbO%2FPu5vJXZ4bva%2FntMNX1aPgeHc%2BVcviaOKE%3D"
+      "RootPath": "https://dsprdil101cin.blob.core.windows.net/7854ac83-8cf6-470c-9f0d-34779a32c56d-1/resource/OWExNDE1MzgtYWM5YS00NDU1LTk2MWItYjA4NDQ2MTM5MDY2.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2026-11-20T10%3A59%3A23Z&ske=2026-11-21T11%3A14%3A23Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2026-11-21T11%3A14%3A23Z&sr=b&sp=r&sig=68P%2BzQiNZaCcirIRr6zMdkCaY8NaFND87gkNVIjcmf8%3D"
     },
     {
       "Name": "images_1",
@@ -94,7 +94,7 @@
       "Path": "Assets\\Images\\8eb69ba6-1b01-4524-86dc-616c83b19ea4.png",
       "Content": "Image",
       "ResourceKind": "LocalFile",
-      "RootPath": "https://dsprdil101sin.blob.core.windows.net/7a39cf4b-a1e8-4a93-b129-77b57825a9ac-1/resource/OGViNjliYTYtMWIwMS00NTI0LTg2ZGMtNjE2YzgzYjE5ZWE0.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2026-11-20T08%3A29%3A53Z&ske=2026-11-21T08%3A44%3A53Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2026-11-21T08%3A44%3A53Z&sr=b&sp=r&sig=Ka8KudQJbmxiedKcVB4NjKrSmc1oMSyDpMMXl5EJxpM%3D"
+      "RootPath": "https://dsprdil101cin.blob.core.windows.net/7854ac83-8cf6-470c-9f0d-34779a32c56d-1/resource/OGViNjliYTYtMWIwMS00NTI0LTg2ZGMtNjE2YzgzYjE5ZWE0.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2026-11-20T10%3A59%3A23Z&ske=2026-11-21T11%3A14%3A23Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2026-11-21T11%3A14%3A23Z&sr=b&sp=r&sig=qZsQWdDxFKEbhGX918RVnneGF1uCZ9%2F1vVksf5zCc6w%3D"
     },
     {
       "Name": "unnamed",
@@ -106,7 +106,7 @@
       "Path": "Assets\\Images\\f3cadfef-7277-4aaa-ba59-8b82957cf6c9.png",
       "Content": "Image",
       "ResourceKind": "LocalFile",
-      "RootPath": "https://dsprdil101sin.blob.core.windows.net/7a39cf4b-a1e8-4a93-b129-77b57825a9ac-1/resource/NDkyMGMyYmUtOWEyZi00MTVkLTkzM2ItNzI5MjE1ZDQ5MDM0.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2026-11-20T09%3A32%3A51Z&ske=2026-11-21T09%3A47%3A51Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2026-11-21T09%3A47%3A51Z&sr=b&sp=r&sig=xG0Dw7u3ckRt11Kc3ivlKm%2FJNJyuUVtoHXO2AcoNmng%3D"
+      "RootPath": "https://dsprdil101cin.blob.core.windows.net/7854ac83-8cf6-470c-9f0d-34779a32c56d-1/resource/ZjNjYWRmZWYtNzI3Ny00YWFhLWJhNTktOGI4Mjk1N2NmNmM5.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2026-11-20T10%3A59%3A23Z&ske=2026-11-21T11%3A14%3A23Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2026-11-21T11%3A14%3A23Z&sr=b&sp=r&sig=taP3O1SMk8jHhG1WESAjG0gX18fhl7B9yYLf%2FaA3oo8%3D"
     }
   ]
 }

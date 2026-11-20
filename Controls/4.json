@@ -2121,7 +2121,7 @@
                           {
                             "Property": "OnSelect",
                             "Category": "Behavior",
-                            "InvariantScript": "//ClearCollect(noduplicateselection,Filter(varSequence,Value<>99 && Value<>88));\nIf(\n    CountRows(playerSelection) < 3,\n    If(\n        ThisItem.Value = 99 || ThisItem.Value = 88,\n        Notify(\"Please make a different selection as the cell is already taken\",NotificationType.Warning),    \n        UpdateContext({playerTurnCounter:playerTurnCounter+1});Collect(playerSelection,ThisItem.Value);Update(varSequence,ThisItem,{Value: 99})\n    ),\n    Notify(\n        \"You cannot select any more cells. Let COM play his/her turn.\",\n        NotificationType.Information,\n        1000\n    )\n)",
+                            "InvariantScript": "//ClearCollect(noduplicateselection,Filter(varSequence,Value<>99 && Value<>88));\nIf(\n    CountRows(playerSelection) < 3,\n    If(\n        ThisItem.Value = 99 || ThisItem.Value = 88, //check applied so that user doesnt select already selected cell on grid\n        Notify(\"Please make a different selection as the cell is already taken\",NotificationType.Warning),    \n        UpdateContext({playerTurnCounter:playerTurnCounter+1});Collect(playerSelection,ThisItem.Value);Update(varSequence,ThisItem,{Value: 99})\n    ),\n    Notify(\n        \"You cannot select any more cells. Let COM play his/her turn.\",\n        NotificationType.Information,\n        1000\n    )\n)",
                             "RuleProviderType": "User"
                           }
                         ],
@@ -3721,7 +3721,7 @@
                       "PaddingLeft"
                     ],
                     "IsLocked": false,
-                    "ControlUniqueId": "46",
+                    "ControlUniqueId": "16",
                     "Children": []
                   },
                   {
@@ -4137,7 +4137,7 @@
                       "maximumHeight"
                     ],
                     "IsLocked": false,
-                    "ControlUniqueId": "47",
+                    "ControlUniqueId": "17",
                     "Children": []
                   },
                   {
@@ -4294,7 +4294,7 @@
                       "FocusedBorderThickness"
                     ],
                     "IsLocked": false,
-                    "ControlUniqueId": "17",
+                    "ControlUniqueId": "18",
                     "Children": []
                   },
                   {
@@ -4738,7 +4738,7 @@
                       "minimumWidth"
                     ],
                     "IsLocked": false,
-                    "ControlUniqueId": "18",
+                    "ControlUniqueId": "19",
                     "Children": []
                   },
                   {
@@ -5063,7 +5063,7 @@
                       {
                         "Property": "OnSelect",
                         "Category": "Behavior",
-                        "InvariantScript": "If(\n    Value(Concat(Sort(playerSelection,ThisRecord.Value,SortOrder.Ascending),\n            ThisRecord.Value,\n            \"\")) in winningCord,\n    Notify(\n        \"User won\",\n        NotificationType.Success\n    ),\n    If(Value(Concat(Sort(comRandomNumbers,ThisRecord.Value,SortOrder.Ascending),\"\")) in winningCord,\n    Notify(\"COM Won the game\",NotificationType.Information),Notify(\"Draw\",NotificationType.Information)\n    )\n)",
+                        "InvariantScript": "If(\n    Value(Concat(Sort(playerSelection,ThisRecord.Value,SortOrder.Ascending),ThisRecord.Value,\"\")) in winningCord,\n    Notify(\"User won\",NotificationType.Success),\n    If(\n        Value(Concat(Sort(comRandomNumbers,ThisRecord.Value,SortOrder.Ascending),\"\")) in winningCord,\n    Notify(\"COM Won the game\",NotificationType.Information),Notify(\"Draw\",NotificationType.Information)\n    )\n);",
                         "RuleProviderType": "User"
                       }
                     ],
@@ -5168,7 +5168,7 @@
                       "minimumWidth"
                     ],
                     "IsLocked": false,
-                    "ControlUniqueId": "19",
+                    "ControlUniqueId": "20",
                     "Children": []
                   },
                   {
@@ -5612,7 +5612,7 @@
                       "minimumWidth"
                     ],
                     "IsLocked": false,
-                    "ControlUniqueId": "16",
+                    "ControlUniqueId": "21",
                     "Children": []
                   }
                 ]
@@ -5948,7 +5948,7 @@
               "RadiusBottomRight"
             ],
             "IsLocked": false,
-            "ControlUniqueId": "20",
+            "ControlUniqueId": "22",
             "Children": [
               {
                 "Type": "ControlInfo",
@@ -6348,7 +6348,7 @@
                   "PaddingLeft"
                 ],
                 "IsLocked": false,
-                "ControlUniqueId": "21",
+                "ControlUniqueId": "23",
                 "Children": []
               },
               {
@@ -6567,7 +6567,7 @@
                   }
                 ],
                 "IsLocked": false,
-                "ControlUniqueId": "22",
+                "ControlUniqueId": "24",
                 "Children": [
                   {
                     "Type": "ControlInfo",
@@ -6681,7 +6681,7 @@
                       "Icon"
                     ],
                     "IsLocked": true,
-                    "ControlUniqueId": "23",
+                    "ControlUniqueId": "25",
                     "Children": []
                   }
                 ]
@@ -7161,7 +7161,7 @@
                   "maximumHeight"
                 ],
                 "IsLocked": false,
-                "ControlUniqueId": "24",
+                "ControlUniqueId": "26",
                 "Children": []
               },
               {
@@ -7457,7 +7457,7 @@
                   "DropShadow"
                 ],
                 "IsLocked": false,
-                "ControlUniqueId": "25",
+                "ControlUniqueId": "27",
                 "Children": [
                   {
                     "Type": "ControlInfo",
@@ -7606,7 +7606,7 @@
                       "Icon"
                     ],
                     "IsLocked": true,
-                    "ControlUniqueId": "26",
+                    "ControlUniqueId": "28",
                     "Children": []
                   }
                 ]
@@ -7721,7 +7721,7 @@
           {
             "Property": "ZIndex",
             "Category": "Design",
-            "InvariantScript": "2",
+            "InvariantScript": "3",
             "RuleProviderType": "Unknown"
           },
           {
@@ -7790,7 +7790,7 @@
           }
         ],
         "IsLocked": false,
-        "ControlUniqueId": "27",
+        "ControlUniqueId": "29",
         "Children": []
       },
       {
@@ -7983,7 +7983,7 @@
           {
             "Property": "ZIndex",
             "Category": "Design",
-            "InvariantScript": "4",
+            "InvariantScript": "5",
             "RuleProviderType": "Unknown"
           },
           {
@@ -8080,12 +8080,12 @@
           }
         ],
         "IsLocked": false,
-        "ControlUniqueId": "28",
+        "ControlUniqueId": "30",
         "Children": []
       },
       {
         "Type": "ControlInfo",
-        "Name": "Button1",
+        "Name": "btn_playagain",
         "HasDynamicProperties": false,
         "Template": {
           "Id": "http://microsoft.com/appmagic/modernButton",
@@ -8183,7 +8183,7 @@
           {
             "Property": "ZIndex",
             "Category": "Design",
-            "InvariantScript": "5",
+            "InvariantScript": "2",
             "RuleProviderType": "Unknown"
           },
           {
@@ -8244,7 +8244,7 @@
           }
         ],
         "IsLocked": false,
-        "ControlUniqueId": "45",
+        "ControlUniqueId": "31",
         "Children": []
       },
       {
@@ -8389,7 +8389,7 @@
           {
             "Property": "ZIndex",
             "Category": "Design",
-            "InvariantScript": "3",
+            "InvariantScript": "4",
             "RuleProviderType": "Unknown"
           },
           {
@@ -8541,7 +8541,7 @@
           }
         ],
         "IsLocked": false,
-        "ControlUniqueId": "29",
+        "ControlUniqueId": "32",
         "Children": []
       },
       {
@@ -8614,7 +8614,7 @@
           "ZIndex"
         ],
         "IsLocked": false,
-        "ControlUniqueId": "30",
+        "ControlUniqueId": "33",
         "Children": [],
         "GroupedControlsKey": [
           "timer_gif",

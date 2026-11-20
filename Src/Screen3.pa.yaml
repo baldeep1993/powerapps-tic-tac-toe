@@ -131,7 +131,7 @@ Screens:
                                 If(
                                     CountRows(playerSelection) < 3,
                                     If(
-                                        ThisItem.Value = 99 || ThisItem.Value = 88,
+                                        ThisItem.Value = 99 || ThisItem.Value = 88, //check applied so that user doesnt select already selected cell on grid
                                         Notify("Please make a different selection as the cell is already taken",NotificationType.Warning),    
                                         UpdateContext({playerTurnCounter:playerTurnCounter+1});Collect(playerSelection,ThisItem.Value);Update(varSequence,ThisItem,{Value: 99})
                                     ),
@@ -232,17 +232,13 @@ Screens:
                               HoverFill: =ColorFade(RGBA(56, 96, 178, 1), -20%)
                               OnSelect: |-
                                 =If(
-                                    Value(Concat(Sort(playerSelection,ThisRecord.Value,SortOrder.Ascending),
-                                            ThisRecord.Value,
-                                            "")) in winningCord,
-                                    Notify(
-                                        "User won",
-                                        NotificationType.Success
-                                    ),
-                                    If(Value(Concat(Sort(comRandomNumbers,ThisRecord.Value,SortOrder.Ascending),"")) in winningCord,
+                                    Value(Concat(Sort(playerSelection,ThisRecord.Value,SortOrder.Ascending),ThisRecord.Value,"")) in winningCord,
+                                    Notify("User won",NotificationType.Success),
+                                    If(
+                                        Value(Concat(Sort(comRandomNumbers,ThisRecord.Value,SortOrder.Ascending),"")) in winningCord,
                                     Notify("COM Won the game",NotificationType.Information),Notify("Draw",NotificationType.Information)
                                     )
-                                )
+                                );
                               PressedBorderColor: =Self.Fill
                               PressedColor: =Self.Fill
                               PressedFill: =Self.Color
@@ -426,6 +422,37 @@ Screens:
                               FieldName: ="Value"
                               FieldVariantName: ="numberColumn"
                               Value: =ThisItem.Value
+      - btn_playagain:
+          Control: ModernButton@1.0.0
+          Properties:
+            BasePaletteColor: =Button2.Fill
+            OnSelect: |-
+              =Concurrent(Notify("🙂Let's Play Again",NotificationType.Information);
+                  ClearCollect(
+                      varSequence,
+                      Sequence(
+                          9,
+                          1,
+                          1
+                      )
+                  ),
+                  ClearCollect(
+                      winningCord,
+                      {ID: 123},
+                      {ID: 147},
+                      {ID: 159},
+                      {ID: 789},
+                      {ID: 369},
+                      {ID: 456},
+                      {ID: 258},
+                      {ID: 357}
+                  ),
+                  Clear(playerSelection),
+                  Clear(comRandomNumbers),UpdateContext({comturncounter:0}),UpdateContext({playerTurnCounter:0})
+              )
+            Text: ="Play Again"
+            X: =1176
+            Y: =44
       - Rectangle3:
           Control: Rectangle@2.3.0
           Group: OnLaunch
@@ -470,34 +497,3 @@ Screens:
             Visible: =false
             X: =40
             Y: =40
-      - Button1:
-          Control: ModernButton@1.0.0
-          Properties:
-            BasePaletteColor: =Button2.Fill
-            OnSelect: |-
-              =Concurrent(Notify("🙂Let's Play Again",NotificationType.Information);
-                  ClearCollect(
-                      varSequence,
-                      Sequence(
-                          9,
-                          1,
-                          1
-                      )
-                  ),
-                  ClearCollect(
-                      winningCord,
-                      {ID: 123},
-                      {ID: 147},
-                      {ID: 159},
-                      {ID: 789},
-                      {ID: 369},
-                      {ID: 456},
-                      {ID: 258},
-                      {ID: 357}
-                  ),
-                  Clear(playerSelection),
-                  Clear(comRandomNumbers),UpdateContext({comturncounter:0}),UpdateContext({playerTurnCounter:0})
-              )
-            Text: ="Play Again"
-            X: =1176
-            Y: =44
